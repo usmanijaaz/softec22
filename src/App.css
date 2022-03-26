@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.login-signup:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.doc-card{
+  color: grey;
+  border: 2px solid rgb(73, 73, 73);
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(228, 222, 222);
+  text-decoration: none;
+}
+
+.doc-card:hover{
+  color: black;
+}
+
+.card-design{
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.card-design:hover{
+  top:20px;
+}
+
+.card-block:hover{
+  background-color: rgb(245, 245, 245);
+
+}
+
+.input-field{
+  border: 2px solid rgb(189, 186, 186);
+  padding: 5px 15px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.input-field::placeholder{
+  font-size: 15px;
+}
+
+.dropdown div.dropdown-content{
+  display: none;
+}
+
+.dropdown:hover div.dropdown-content{
+  display: block;
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
+  top:10px;
+  left:-100px;
+}
+

@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Doctor Abdul Rehman",
+        "Specialization":"Heart Surgeon",
+        "Intro":"I am a doctor of cardioVascular issues."
+
+    },
+    {
+        "name":"Doctor Usman",
+        "Specialization":"Neuro Surgeon",
+        "Intro":"I am a doctor of Neurological issues."
+
+    },
+    {
+        "name":"Doctor Moosa",
+        "Specialization":"ENT",
+        "Intro":"I am a doctor of Ear, Nose, Thorat issues."
+    }
+]

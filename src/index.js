@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import First from './first';
+import NavbarComponent from './Navbar';
+import DoctorComponent from './Doctor';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+   <NavbarComponent></NavbarComponent>
+   <DoctorComponent></DoctorComponent>
   </React.StrictMode>,
   document.getElementById('root')
 );
